@@ -1,58 +1,129 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  
+  <div class="index_com">
+    
+    <div class="index_big_pic_ssa">
+        <div></div>
+    </div>
+    
+    <div class="index_text_ssa">
+        <span>
+            用于工业安全的毫米波雷达系统
+        </span>
+<!--        <span>-->
+<!--          -->
+<!--        </span>-->
+        <span>
+          锐达毫米波雷达可以检测到危险区域操作人员的进入或存在，允许实时、动态地设置检测区域和警告区域。
+        </span>
+    </div>
+
+    <div class="index_big_pic1">
+      <img src="../assets/rdbigpic.png" alt="">
+    </div>
+
+
   </div>
+
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+
+/* ===================================== */
+
+.index_com{
+  margin-top: 55px;
+  text-align: center;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.index_big_pic1 img{
+  max-width: 80%;
+  margin: 0 atuo;
+  margin-top: 50px;
 }
-li {
+.index_big_pic_ssa{
+  background-image: url("../assets/index-ssa1.png");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  height: 65vh;
+  /* widows: 100%; */
+}
+.index_big_pic_ssa div{
+  font-size: 3.8rem;
+  line-height: 65vh;
+  color: white;
+  font-weight: 700;
+}
+.index_text_ssa{
+  margin-top: 80px;
+  color: black;
+  text-align: center;
+}
+.index_text_ssa span:nth-child(1){
+  font-size: 2.7rem;
+  font-weight: 700;
+  display: block;
+}
+@media screen and (max-width:480px){
+  .index_text_ssa span:nth-child(1){
+    font-size: 2rem;
+  }
+}
+.index_text_ssa span:nth-child(2){
+  font-size: 2rem;
+  font-weight: 300;
+  display: block;
+  margin-top: 10px;
+}
+@media screen and (max-width:480px) {
+  .index_text_ssa span:nth-child(2){
+    font-size: 1.3rem;
+  }
+}
+.index_text_ssa span:nth-child(3){
+  font-size: 1.2rem;
   display: inline-block;
-  margin: 0 10px;
+  color: darkslategray;
+  /* width: 50vw; */
+  margin: 0 10vw;
+  margin-top: 40px;
 }
-a {
-  color: #42b983;
+
+
+
+
+.index_info_ssa{
+  margin-top: 90px;
 }
+
+.index_info_detail_ssa{
+  margin-top: 100px;
+}
+.index_info_detail_ssa img{
+  height: 120px;
+  widows: auto;
+}
+.index_info_detail_ssa div:nth-child(2){
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.index_info_detail_ssa div:nth-child(3){
+  margin: auto auto;
+  width: 60%;
+  font-size: 1.3rem;
+}
+
+
+
+
 </style>
