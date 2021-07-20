@@ -1,4 +1,4 @@
-# bootstrap-vue
+# bootstrap-vue,移动端适配.
 
 ## Project setup
 ```
