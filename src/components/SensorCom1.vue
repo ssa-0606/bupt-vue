@@ -107,7 +107,7 @@ export default {
 }
   .first-sensor-p2-ssa img{
     width: 80%;
-    height: fit-content;
+    /* height: fit-content; */
   }
 }
 .first-sensor-p2-1-ssa{

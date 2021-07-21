@@ -5,7 +5,7 @@
 <!--    <IndexReason/>-->
     <SafeCom/>
     <div style="margin: 120px auto">
-      <img src="../assets/goodpoint.png" alt="" style="width: 60%">
+      <img src="../assets/goodpoint.png" alt="" class="inde-safe-change-img">
     </div>
     <div class="index-ul">
       <div>在不影响生产率的前提下实现高安全性</div>
@@ -150,6 +150,15 @@ export default {
   .home-end-text1{
     width: 95%;
     font-size: 0.8rem;
+  }
+}
+
+.inde-safe-change-img{
+   width: 60%; 
+}
+@media screen and (max-width:480px) {
+  .inde-safe-change-img{
+    width: 85%;
   }
 }
 

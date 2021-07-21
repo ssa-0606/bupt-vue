@@ -343,10 +343,10 @@ ol{
 }
 @media screen and (max-width:480px) {
   .control-p1-ssa div:nth-child(1){
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .control-p1-ssa div:nth-child(2){
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }
 .control-img1-ssa{
